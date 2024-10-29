@@ -31,8 +31,9 @@ a:hover {
 
 .container {
     margin: auto;
-    max-width: 662px;
-    padding: 0 20px
+    max-width: 850px;
+    padding: 0 20px;
+    padding-left: 20px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -123,15 +124,15 @@ a:hover {
     text-align: center;
 }
 .main-nav .container {
-    width: auto;
+    max-width: 850px;
     /* position: relative;
     justify-items: center; */
 }
-/* .main-nav nav ul li{
-    max-width: 600px;
-    position: relative;
-    justify-content: end;
-} */
+.main-nav nav ul{
+    max-width: 800px;
+    padding-right: 10px;
+    margin-right: 10px;
+}
 .main-nav nav ul li a {
     color: #a7a7a7
 }
@@ -186,7 +187,7 @@ a:hover {
 }
 
 .intro h1 span {
-    font-size: 45px;
+    font-size: 40px;
 }
 .work{
     padding-top: 75px;
