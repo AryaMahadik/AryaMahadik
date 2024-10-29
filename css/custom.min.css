@@ -122,9 +122,9 @@ a:hover {
     top: 0;
 }
 .main-nav .container {
-    max-width: 100%;
-    position: relative;
-    justify-items: center;
+    width: auto;
+    /* position: relative;
+    justify-items: center; */
 }
 
 .main-nav nav ul li a {
