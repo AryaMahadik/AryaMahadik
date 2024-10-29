@@ -120,12 +120,11 @@ a:hover {
     width: 100%;
     z-index: 999;
     top: 0;
+    text-align: center;
+    /* max-width: 100%; */
 }
 .main-nav .container {
-    width: 100%;
-    max-width: 100%;
-    /* position: relative;
-    justify-items: center; */
+    /* max-width: 750px; */
 }
 
 .main-nav nav ul li a {
