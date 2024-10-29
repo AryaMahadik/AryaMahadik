@@ -124,9 +124,12 @@ a:hover {
     /* max-width: 100%; */
 }
 .main-nav .container {
-    /* max-width: 750px; */
+    max-width: 650px;
 }
-
+.main-nav nav ul{
+    max-width: 750px;
+    margin-right: 10px;
+}
 .main-nav nav ul li a {
     color: #a7a7a7
 }
