@@ -13,7 +13,7 @@ h6 {
 a,
 p,
 li {
-    font-family: 'Playfair Display', serif;
+    font-family: Playfair;
     color: #4e4e4e;
     font-size: 1em;
     line-height: 1.75em
@@ -31,7 +31,7 @@ a:hover {
 
 .container {
     margin: auto;
-    max-width: 662px;
+    max-width: 750px;
     padding: 0 20px
 }
 
@@ -121,15 +121,17 @@ a:hover {
     z-index: 999;
     top: 0;
     text-align: center;
-    /* max-width: 100%; */
 }
 .main-nav .container {
-    max-width: 650px;
+    width: auto;
+    /* position: relative;
+    justify-items: center; */
 }
-.main-nav nav ul{
-    max-width: 750px;
-    margin-right: 10px;
-}
+/* .main-nav nav ul li{
+    max-width: 600px;
+    position: relative;
+    justify-content: end;
+} */
 .main-nav nav ul li a {
     color: #a7a7a7
 }
@@ -184,7 +186,7 @@ a:hover {
 }
 
 .intro h1 span {
-    font-size: 47px
+    font-size: 45px;
 }
 .work{
     padding-top: 75px;
