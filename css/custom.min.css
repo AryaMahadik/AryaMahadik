@@ -122,7 +122,8 @@ a:hover {
     top: 0;
 }
 .main-nav .container {
-    width: auto;
+    width: 100%;
+    max-width: 100%;
     /* position: relative;
     justify-items: center; */
 }
